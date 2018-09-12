@@ -19,7 +19,15 @@ function inc (n) {
 }
 
 function dec (n) {
-  
+  return a--;
+}
+
+function makeInt (n) {
+  return parseInt(a, 10);
+}
+
+function preserveDecimal (n) {
+  return parseFloat(a);
 }
 it('inc(n) increments n and returns the result', function() {
   expect(inc(a)).toEqual(a + 1)
